@@ -16,6 +16,7 @@
 #include <stdio.h>
 
 int main() {
+    
     char first_name[50], last_name[50];
     // รับชื่อจากผู้ใช้
     printf("First Name: ");
