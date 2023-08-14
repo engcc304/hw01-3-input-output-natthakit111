@@ -11,11 +11,9 @@
         First Name: ABC
         Last Name: DEF
     Output:
-        ABD DEFs TC, RMUTL, Chiang Mai, Thailand
+        ABD DEF TC, RMUTL, Chiang Mai, Thailand
 */
-
 #include <stdio.h>
-#include <string.h>
 
 int main() {
     char first_name[50], last_name[50];
@@ -28,10 +26,6 @@ int main() {
 
     // ประกาศและกำหนดค่าให้ที่อยู่
     char address[] = "TC, RMUTL, Chiang Mai, Thailand";
-
-    // แปลงนามสกุลให้เป็นรูปแบบที่ต้องการ
-    int last_name_length = strlen(last_name);
-    last_name[last_name_length - 1] = 's';
 
     // แสดงผลลัพธ์
     printf("Output:\n");
